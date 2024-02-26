@@ -15,7 +15,7 @@ jobs:
 
       - name: Build Maven project
         run: |
-          mvn clean install
+          mvn clean install0
           export MAVEN_EXIT_CODE=$?
 
       - name: Send notification on Slack using Webhooks - Success
